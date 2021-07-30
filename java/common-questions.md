@@ -1,0 +1,98 @@
+# Core Java 
+
+- What is Java?
+- What does it mean for a language to be strongly typed?
+- Pillars of OOP
+- Define Abstraction. In what way does Java employ abstraction?
+- Define Polymorphism. In what way does Java employ polymorphism?
+- Define Inheritance. In what way does Java employ inheritance?
+- Define Encapsulation. In what way does Java employ encapsulation?
+- Describe the JDK, JRE, and the JVM
+- List the Java primitive types
+- What are wrapper classes?
+- What is autoboxing and unboxing?
+- What does the "final" keyword mean?
+- What does the "static" keyword mean?
+- What are variable arguments?
+- What are the scopes in which a variable can exist in - in Java?
+- What is the difference between an object and a class?
+- What is the "new" keyword used for?
+- What is the "super" keyword used for?
+- What is the "this" keyword used for?
+- What is a constructor?
+- What is the difference between the == operator and .equals() method?
+- What is the Object class's function in the Java language?
+- What is a POJO?
+- What is method overloading?
+- What is method overriding?
+- What is type casting?
+- What are access modifiers?
+- List the access modifiers from most visible to least visible
+- What is the difference in visibility between protected and package-private access level?
+- What are some non-access modifying keywords used in Java?
+- What is the difference between an interface and an abstract class?
+- What is the purpose of the .finalize() method?
+- Is multiple inheritance supported in Java?
+- Can garbage collected be forced in Java?
+- What are packages used for?
+- What are imports?
+- What are static imports?
+- What is the main method signature?
+- What is a primitive array?
+- What property of a Java primitive array tells us the size of the array?
+- Does Java employ "pass-by-value" or "pass-by-reference"?
+- What are some constructs used in Java for flow control?
+- What is the difference between a while and a do-while loop?
+- What is the difference between a for loop and an enhanced for loop?
+- What are short-circuit boolean operators?
+- What is the String Pool?
+- What is the difference between String, StringBuilder, and StringBuffer?
+- Are Java Strings thread-safe? Why?
+- How can a String be created outside of the String Pool?
+- What is string interning?
+- What is the difference between an exception and an error in Java?
+- What is the difference between a checked and an unchecked exception?
+- What causes a NullPointerException?
+- How can exceptions be handled in Java?
+- What is the purpose of the finally block?
+- Are you required to handle RuntimeExceptions?
+- Can exceptions be caught by multiple catch blocks in any order?
+- What is reflection?
+- Why do abstract classes have constructors?
+- What modifying keywords are implicitly applied to variable members declared within an interface?
+- What are functional interfaces?
+- What are marker interfaces?
+- What are annotations used for in Java?
+- What are default interface methods?
+- Describe the core interface/class hierarchy of the Java Collections API
+- What is the difference between a List and a Set?
+- What are the characteristics of a Queue?
+- What are the characteristics of a Stack?
+- What is a Map? Are they considered to be a part of the Java Collection API?
+- When would you use an ArrayList over a LinkedList?
+- When would you use an ArrayList over a Vector?
+- What is the difference between a HashSet and a TreeSet?
+- What is the difference between a Queue and a Deque?
+- What is the difference between a HashMap and a Hashtable?
+- Why is the main method declared static in Java?
+- Does the logic in a static block member of a class run before or after the class's constructor logic is called?
+- What is a thread in Java?
+- How can you create a thread in Java?
+- What are the states of a thread?
+- What is the difference between the .run() and .start() methods?
+- What is the keyword "synchronized" used for?
+- What causes a deadlock?
+- What is the function of the .join() method?
+- Describe the characteristics and application of the singleton design pattern
+- Describe the characteristics and application of the factory design pattern
+- What is a lambda expression?
+- What are the differences between a lambda expression and a local anonymous class?
+- Are lambda expressions replacements to local anonymous classes?
+- What is a functional interface?
+- Is the @FunctionalInterface annotation required to denote a functional interface?
+- What are some examples of functional interfaces?
+- What are method references? Describe their syntax.
+- What kinds of methods can be references using method references?
+- What is a default method, and why should you use them?
+- What is a JAR?
+
