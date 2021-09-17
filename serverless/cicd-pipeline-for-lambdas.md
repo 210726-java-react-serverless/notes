@@ -134,7 +134,7 @@ Policy:
 - Action mode: Create or update a stack
 - Stack name: `<YOUR_STACK_NAME>` (doesn't have to be an existing one)
 - Template:
-  - Artifact name: BuildArtifact
+  - Artifact name: `BuildArtifact`
   - File name: `packaged-template.yml`
   - Capabilities: `CAPABILITY_IAM` and `CAPABILITY_AUTO_EXPAND`
 
