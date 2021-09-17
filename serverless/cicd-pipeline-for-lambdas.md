@@ -130,13 +130,13 @@ Policy:
 
 10. Edit the pipeline and add a stage called "Deploy", add an Action Group called "Deploy" with the following configurations:
 - Action Provider: CloudFormation
-- Input Artifacts: BuildArtifact
+- Input Artifacts: `BuildArtifact`
 - Action mode: Create or update a stack
-- Stack name: <YOUR_STACK_NAME> (doesn't have to be an existing one)
+- Stack name: `<YOUR_STACK_NAME>` (doesn't have to be an existing one)
 - Template:
   - Artifact name: BuildArtifact
-  - File name: packaged-template.yml
-  - Capabilities: CAPABILITY_IAM and CAPABILITY_AUTO_EXPAND
+  - File name: `packaged-template.yml`
+  - Capabilities: `CAPABILITY_IAM` and `CAPABILITY_AUTO_EXPAND`
 
 11. Save your changes and release change to trigger the pipeline.
 
