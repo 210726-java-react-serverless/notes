@@ -11,13 +11,13 @@ AWSTemplateFormatVersion: '2010-09-09'
 Transform: 'AWS::Serverless-2016-10-31'
 Description: A simple AWS Lambda for searching book records within a DynamoDB table.
 Resources:
-  GetBooksFx:
+  <NAME_FOR_YOUR_RESOURCE>:
     Type: AWS::Serverless::Function
     Properties:
       CodeUri: <RELATIVE_PATH_TO_YOUR_JAR>
       Handler: <FULLY_QUALIFIED_PATH_TO_YOUR_HANDLER>
       Runtime: java8.al2
-      Description: Java function
+      Description: <DESCRIPTION_FOR_YOUR_RESOURCE>
       MemorySize: 256
       Timeout: 30
       Tracing: Active
@@ -25,7 +25,7 @@ Resources:
       - arn:aws:iam::<YOUR_AWS_ACCOUNT_ID>:policy/<YOUR_POLICY>
 ```
 
-4. Create an S3 bucket that will hold the generated CloudFormation template that AWS SAM creates
+4. Create an S3 bucket that will hold the generated CloudFormation template that AWS SAM creates (bucket can stay private)
 
 5. Create an AWS CodeBuild project that will be used to build our function logic into a JAR and prepare a CloudFormation template
 Example buildspec: 
